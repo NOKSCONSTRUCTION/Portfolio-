@@ -15,16 +15,65 @@
   <body>
     <main>
       <header>
-        <h1>Noks construction PTY(Ltd)</h1>
+        <h1><span class="name">Noks</span> construction PTY(Ltd)</h1>
         <i class="fa-solid fa-bars"></i>
         <div class="nav">
-          <a href="#a">Home</a>
-          <a href="#a">About</a>
-          <a href="#a">Services</a>
-          <a href="#a">Profile</a>
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#services">Services</a>
+          <a href="#profile">Profile</a>
+          <a href="#contact">Contact</a>
         </div>
       </header>
+      <div class="content">
+        <div id="about"></div>
+        <div class="about">
+          <h1>About Us</h1>
+          <p>
+            Noks Construction PTY(Ltd) is a reputable construction company dedicated to delivering
+            exceptional quality and service in every project undertaken. With a focus on innovation,
+            professionalism, and reliability, Noks Construction PTY(Ltd) specializes in a wide range
+            of construction services, including residential, commercial, and industrial projects.
+            Our team of experienced professionals is committed to exceeding client expectations,
+            ensuring timely completion, and maintaining the highest standards of safety and
+            craftsmanship. Whether it's building dream homes, revitalizing communities, or
+            constructing commercial spaces, Noks Construction PTY(Ltd) is your trusted partner for
+            turning visions into reality.
+          </p>
+        </div>
+        <div id="services"></div>
+        <h1>What we do</h1>
+        <div class="services"></div>
+        <div id="profile"></div>
+        <div class="profile">
+          <h1>Projects</h1>
+          <p>Nothing to show as yet</p>
+        </div>
+
+        <div id="contact"></div>
+        <div class="contact">
+          <h1>Contact us</h1>
+          <form>
+            <label>Names</label>
+            <input type="text" name="names" required />
+            <label>Email</label>
+            <input type="text" name="names" required />
+            <label>Cellphone</label>
+            <input type="text" name="names" required />
+            <label>Message</label>
+            <textarea name="message" required></textarea>
+            <button type="submit">Submit</button>
+          </form>
+        </div>
+      </div>
     </main>
+    <footer>
+      <p>&copy; <span id="year"></span> Noks Construction PTY(Ltd)</p>
+    </footer>
     <script src="js/app.js"></script>
+    <script>
+      const year = document.querySelector("#year");
+      year.innerHTML = new Date().getFullYear();
+    </script>
   </body>
 </html>
