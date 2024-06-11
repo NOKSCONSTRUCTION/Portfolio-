@@ -1,7 +1,7 @@
 const services = document.querySelector(".services");
 const menu = document.querySelector(".fa-bars");
-const nav = document.querySelector("header .nav");
-const link = document.querySelectorAll("header .nav a");
+const nav = document.querySelector(".nav");
+const link = document.querySelectorAll(".nav a");
 
 const servicesObject = [
   {
@@ -15,13 +15,28 @@ const servicesObject = [
     description: "",
   },
   {
+    title: "Ceiling",
+    image: "images/ceiling.jpg",
+    description: "",
+  },
+  {
     title: "Plastering",
     image: "images/a5.jpeg",
     description: "",
   },
   {
-    title: "tiling",
-    image: "images/a5.jpg",
+    title: "Painting",
+    image: "images/painting.webp",
+    description: "",
+  },
+  {
+    title: "Foundations",
+    image: "images/a4.jpg",
+    description: "",
+  },
+  {
+    title: "Electric",
+    image: "images/electric.jpg",
     description: "",
   },
 ];
@@ -29,12 +44,12 @@ const servicesObject = [
 for (let i = 0; i < servicesObject.length; i++) {
   const text = document.createElement("p");
   text.innerHTML = servicesObject[i].title;
-  const img = document.createElement("div");
-  img.classList.add("img");
-  img.style.backgroundImage = `url(${servicesObject[i].image})`;
+  // const img = document.createElement("div");
+  // img.classList.add("img");
   const item = document.createElement("div");
+  item.style.backgroundImage = `url(${servicesObject[i].image})`;
   item.classList.add("service-item");
-  item.append(img, text);
+  item.append(text);
   services.append(item);
 }
 
