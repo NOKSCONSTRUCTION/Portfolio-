@@ -44,6 +44,11 @@ const servicesObject = [
     image: "images/int2.jpg",
     description: "",
   },
+  {
+    title: "Plumbing",
+    image: "images/plum.webp",
+    description: "",
+  },
 ];
 
 for (let i = 0; i < servicesObject.length; i++) {
