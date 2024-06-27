@@ -58,11 +58,13 @@ for (let i = 0; i < servicesObject.length; i++) {
 menu.addEventListener("click", () => {
   menu.classList.toggle("fa-times");
   nav.classList.toggle("show");
+  document.body.style.overflow = "hidden";
 });
 
 link.forEach((link) => {
   link.addEventListener("click", () => {
     nav.classList.toggle("show");
     menu.classList.toggle("fa-times");
+    document.body.style.overflow = "auto";
   });
 });
