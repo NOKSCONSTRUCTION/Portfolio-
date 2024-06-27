@@ -272,10 +272,10 @@ textarea {
   #slider h1 {
     font-size: 46px;
     left: 0%;
-    height: 50px;
-    top: 95%;
+    top: 60%;
     background: linear-gradient(90deg, rgba(0, 0, 0, 0.8), rgb(0, 0, 0, 0.2), rgb(0, 0, 0, 0));
     width: 100%;
+    padding: 10px;
   }
 
   .about {
