@@ -39,6 +39,11 @@ const servicesObject = [
     image: "images/electric.jpg",
     description: "",
   },
+  {
+    title: "Interior Design",
+    image: "images/int2.jpg",
+    description: "",
+  },
 ];
 
 for (let i = 0; i < servicesObject.length; i++) {
