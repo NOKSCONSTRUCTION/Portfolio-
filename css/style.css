@@ -5,6 +5,10 @@ body {
   overflow-x: hidden;
 }
 
+.remove-scroll {
+  overflow-y: hidden;
+}
+
 * {
   font-family: "Poppins", Arial, Helvetica, sans-serif;
 }
