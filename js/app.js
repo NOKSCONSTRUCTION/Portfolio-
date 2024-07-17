@@ -6,47 +6,47 @@ const link = document.querySelectorAll(".nav a");
 const servicesObject = [
   {
     title: "Tiling",
-    image: "images/a5.jpg",
+    image: "./images/a5.jpg",
     description: "",
   },
   {
     title: "Roofing",
-    image: "images/a3.jpg",
+    image: "./images/a3.jpg",
     description: "",
   },
   {
     title: "Ceiling",
-    image: "images/ceiling.jpg",
+    image: "./images/ceiling.jpg",
     description: "",
   },
   {
     title: "Plastering",
-    image: "images/a5.jpeg",
+    image: "./images/a5.jpeg",
     description: "",
   },
   {
     title: "Painting",
-    image: "images/painting.webp",
+    image: "./images/painting.webp",
     description: "",
   },
   {
     title: "Foundations",
-    image: "images/a4.jpg",
+    image: "./images/a4.jpg",
     description: "",
   },
   {
     title: "Electric",
-    image: "images/electric.jpg",
+    image: "./images/electric.jpg",
     description: "",
   },
   {
     title: "Interior Design",
-    image: "images/int2.jpg",
+    image: "./images/int2.jpg",
     description: "",
   },
   {
     title: "Plumbing",
-    image: "images/plum.webp",
+    image: "./images/plum.webp",
     description: "",
   },
 ];
