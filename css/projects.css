@@ -10,7 +10,7 @@
 .scroll-buttons {
   position: absolute;
   display: flex;
-  background: rgb(255, 255, 255, 0.5);
+  /* background: rgb(255, 255, 255, 0.5); */
   padding: 20px;
   right: 0px;
   bottom: 0px;
