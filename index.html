@@ -9,6 +9,7 @@
     <meta name="description" content="Noks construction PTY(Ltd)" />
     <link rel="stylesheet" href="css/slide.css" />
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/projects.css" />
     <link rel="stylesheet" href="fontAwesome/css/all.min.css" />
     <script src="https://kit.fontawesome.com/062d0051ac.js" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet" />
@@ -53,7 +54,13 @@
         <div id="profile"></div>
         <div class="profile">
           <h1>Projects</h1>
-          <p>Nothing to show as yet</p>
+          <div class="project-panel">
+            <div class="progress"></div>
+            <div class="scroll-buttons">
+              <div class="left-scroll scroll"><</div>
+              <div class="right-scroll scroll">></div>
+            </div>
+          </div>
         </div>
 
         <div id="contact"></div>
@@ -101,6 +108,7 @@
     </footer>
     <script src="js/app.js"></script>
     <script src="js/slide.js"></script>
+    <script src="js/projects.js"></script>
     <script>
       const year = document.querySelector("#year");
       year.innerHTML = new Date().getFullYear();

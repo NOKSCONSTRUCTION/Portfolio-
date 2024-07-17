@@ -1,0 +1,56 @@
+.project-panel {
+  width: 100%;
+  height: 550px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  user-select: none;
+}
+
+.scroll-buttons {
+  position: absolute;
+  display: flex;
+  background: rgb(255, 255, 255, 0.5);
+  padding: 20px;
+  right: 0px;
+  bottom: 0px;
+}
+
+.scroll {
+  color: white;
+  background: black;
+  font-size: 36px;
+  width: 50px;
+  padding: 1%;
+  cursor: pointer;
+  margin: 2%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.scroll:hover {
+  opacity: 0.5;
+}
+
+.progress {
+  width: 100%;
+  height: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bar {
+  height: 10px;
+  margin: 0% 0.1%;
+  background: rgb(255, 255, 255);
+  margin-top: 2%;
+  opacity: 0.5;
+}
+
+@media screen and (max-width: 600px) {
+  .project-panel {
+    height: 400px;
+  }
+}
