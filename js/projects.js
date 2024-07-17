@@ -5,51 +5,51 @@ const progress = document.querySelector(".progress ");
 
 const projectImages = [
   {
-    image: "../project/a1.jpg",
+    image: "./project/a1.jpg",
     category: "Planning",
   },
   {
-    image: "../project/a2.jpg",
+    image: "./project/a2.jpg",
     category: "building",
   },
   {
-    image: "../project/a3.jpg",
+    image: "./project/a3.jpg",
     category: "building",
   },
   {
-    image: "../project/a4.jpg",
+    image: "./project/a4.jpg",
     category: "building",
   },
   {
-    image: "../project/a5.jpg",
+    image: "./project/a5.jpg",
     category: "building",
   },
   {
-    image: "../project/a6.jpg",
+    image: "./project/a6.jpg",
     category: "building",
   },
   {
-    image: "../project/a7.jpg",
+    image: "./project/a7.jpg",
     category: "building",
   },
   {
-    image: "../project/a8.jpg",
+    image: "./project/a8.jpg",
     category: "building",
   },
   {
-    image: "../project/a9.jpg",
+    image: "./project/a9.jpg",
     category: "building",
   },
   {
-    image: "../project/a10.jpg",
+    image: "./project/a10.jpg",
     category: "building",
   },
   {
-    image: "../project/a11.jpg",
+    image: "./project/a11.jpg",
     category: "building",
   },
   {
-    image: "../project/a12.jpg",
+    image: "./project/a12.jpg",
     category: "building",
   },
 ];
