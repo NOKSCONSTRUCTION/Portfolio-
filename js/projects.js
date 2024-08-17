@@ -5,6 +5,10 @@ const progress = document.querySelector(".progress ");
 
 const projectImages = [
   {
+    image: "./project/h11.jpg",
+    category: "Planning",
+  },
+  {
     image: "./project/a1.jpg",
     category: "Planning",
   },
@@ -22,6 +26,10 @@ const projectImages = [
   },
   {
     image: "./project/a5.jpg",
+    category: "building",
+  },
+  {
+    image: "./project/h2.jpg",
     category: "building",
   },
   {

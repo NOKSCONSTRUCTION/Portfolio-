@@ -54,8 +54,6 @@ const servicesObject = [
 for (let i = 0; i < servicesObject.length; i++) {
   const text = document.createElement("p");
   text.innerHTML = servicesObject[i].title;
-  // const img = document.createElement("div");
-  // img.classList.add("img");
   const item = document.createElement("div");
   item.style.backgroundImage = `url(${servicesObject[i].image})`;
   item.classList.add("service-item");
