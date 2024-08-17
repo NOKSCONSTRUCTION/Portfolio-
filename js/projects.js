@@ -5,7 +5,7 @@ const progress = document.querySelector(".progress ");
 
 const projectImages = [
   {
-    image: "./project/h11.jpg",
+    image: "./project/h8.jpg",
     category: "Planning",
   },
   {
