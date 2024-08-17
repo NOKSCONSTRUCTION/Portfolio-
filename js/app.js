@@ -5,6 +5,16 @@ const link = document.querySelectorAll(".nav a");
 
 const servicesObject = [
   {
+    title: "Foundations",
+    image: "./images/a4.jpg",
+    description: "",
+  },
+  {
+    title: "Super Structure",
+    image: "./images/super.webp",
+    description: "",
+  },
+  {
     title: "Tiling",
     image: "./images/a5.jpg",
     description: "",
@@ -27,11 +37,6 @@ const servicesObject = [
   {
     title: "Painting",
     image: "./images/painting.webp",
-    description: "",
-  },
-  {
-    title: "Foundations",
-    image: "./images/a4.jpg",
     description: "",
   },
   {
