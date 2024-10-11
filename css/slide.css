@@ -5,15 +5,14 @@
   top: 0px;
 }
 
-#slider h1 {
+#slider .text {
   color: white;
   background: linear-gradient(90deg, rgb(0, 0, 0, 1), rgb(0, 0, 0, 0.5), rgb(0, 0, 0, 0));
   position: absolute;
   top: 62%;
-  padding: 2% 0 2% 5%;
+  padding: 1% 0 1% 5%;
   z-index: 10;
-  font-size: 56px;
-  width: 35%;
+  width: 55%;
 }
 
 #slide {

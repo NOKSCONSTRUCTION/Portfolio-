@@ -1,4 +1,4 @@
-const title = document.querySelector("#slider h1");
+const title = document.querySelector("#slider .text");
 const slide = document.querySelector("#slide");
 
 let imgCount = 5;
@@ -21,7 +21,7 @@ const flip = (count, cnt) => {
   tiles[count - 3].classList.add("flip");
   tiles[count - 4].classList.remove("flip");
   setTimeout(() => {
-    title.innerHTML = servicesObject[cnt].title;
+    title.innerHTML = `<h1>${servicesObject[cnt].title}</h1><p>${servicesObject[cnt].description}</p>`;
   }, 2000);
 };
 
